@@ -1,0 +1,127 @@
+@font-face {
+    font-family: hm;
+    src: url(../Police_Leblanc/hamburg-medium.ttf);
+}
+
+* {
+    margin: auto;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 3px;
+    padding-bottom: 5px;
+    opacity: 0.7;
+    z-index: 2;
+}
+
+#barre_menu {
+    display: flex;
+    background-color: white;
+    color: black;
+    border: none;
+    width: 150px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-family: 'hm';
+}
+
+#barre_employe {
+    display: flex;
+    background-color: white;
+    color: black;
+    border: none;
+    width: 60px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-family: 'hm';
+}
+
+#barre_localisation {
+    display: flex;
+    background-color: white;
+    color: black;
+    border: none;
+    width: 85px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-family: 'hm';
+}
+
+#barre_logo {
+    background-color: white;
+    color: black;
+    border: none;
+    width: 50px;
+    border-radius: 100px;
+}
+
+#zoneSaisieContainer {
+    margin-right: -6%;
+}
+
+#monBouton {
+    width: 30px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    width: 400px;
+    border-radius: 100px;
+
+}
+
+#barre_localisation:hover {
+    color: red;
+}
+
+#barre_employe:hover {
+    color: red;
+}
+
+#barre_menu:hover {
+    color: red;
+}
+
+#Logo {
+    width: 3rem;
+}
+
+#Erreur_bg {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-family: 'hm';
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(219, 23, 23);
+    font-size: 40px;
+    font-family: 'hm';
+    text-align: center;
+}

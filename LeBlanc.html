@@ -1,0 +1,98 @@
+<!-- fair une page d'erreure quand on cherche dans la zone de text-->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS_Leblanc/LeBlanc.css">
+    <link rel="icon" type="image/png" href="./Café_LeBlanc_Image/Logo_photomThiefs-removebg-preview.png">
+    <title>LeBlanc</title>
+</head>
+
+<body>
+    <header>
+
+        <a id="barre_logo" href="./LeBlanc.html"><img id="Logo" src="./Café_LeBlanc_Image/Logo_P5-removebg-preview.png"
+                alt=""></a>
+        <a id="barre_menu" href="./Menu.html">Menu & réservation</a>
+        <a id="barre_employe" href="#check_employe">employé</a>
+        <a id="barre_localisation" href="#localisation">Localisation</a>
+        <div id="zoneSaisieContainer" style="display:none;">
+            <input type="text" id="zoneSaisie" placeholder="Recherche">
+        </div>
+        <button id="monBouton">🔍</button>
+
+    </header>
+    <main>
+        <div class="section">
+            <div class="images">
+                <img class="accueil" src="./Café_LeBlanc_Image/CaféLeBlanc_2.jpg" alt="">
+                <img class="accueil" src="./Café_LeBlanc_Image/Café_LeBlanc.png" alt="">
+                <img class="accueil" src="./Café_LeBlanc_Image/CaféLeBlanc_exterieur(1)recadrer.jpg" alt="">
+            </div>
+        </div>
+
+        <h1 id="h1">Leblanc</h1>
+        <h2 id="subh1">Coffee & curry</h2>
+
+    </main>
+
+    <div id="element_un">
+        <p id="textpresentation">Vener déguster notre délicieux café torréfier sur place à la main ou découvrir notre
+            carte qui ravira vos papilles aux amateurs de fines saveurs ainsi qu’aux amoureux de douceurs sucrés.</p>
+        <img id="cafe_tasse" src="./Café_LeBlanc_Image/Enceigne_Leblanc.jpg" alt="">
+        <p id="check_employe"></p>
+    </div>
+
+    <div id="Fusion_element-deux">
+        <div id="element_deux">
+            <p id="titre_element_deux">L'équipe</p>
+            <div id="element_deux_f">
+                <p id="description_patron"></p>
+                <img id="Patron" src="./Café_LeBlanc_Image/persona-5-royal-sojiro-confidant.jpg" alt="">
+                <img id="employe" src="./Café_LeBlanc_Image/Ren_Amamiya_29.jpg" alt="">
+            </div>
+            <div id="element_deux_d">
+                <p id="description_patron">Sojiro Sakura</p>
+                <p id="description_employe">Ren Amamiya</p>
+            </div>
+        </div>
+
+        <div id="mona">
+            <p id="notre_mascotte">Notre mascotte</p>
+            <img id="mona_f" src="./Café_LeBlanc_Image/Mona_carresse.jpg" alt="">
+            <div id="mona_db">
+                <p id="mona_d">Mona</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="localisation">
+        <p id="localisation_t">Nous trouver 🗺️</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9161.4864711317!2d139.7175328281151!3d35.72438368672796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d302370e84d%3A0x45556e52e80e79f6!2sCafe%20BL!5e0!3m2!1sfr!2sfr!4v1707066566721!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <footer>
+        <div id=”contenu-footer”>
+
+            <div class=”bas_de_page”>
+                <h3>Restons en contact</h3>
+                <p class="p_footer">06 06 06 06 06</p>
+                <p class="p_footer">cafe.leblanc@contact.com</p>
+                <p class="p_footer">5 Chome-20-5 Higashiikebukuro, Toshima City, Tokyo 170-0013, Japon</p>
+            </div>
+
+            <p class="p_footer">Atlus© 2017</p>
+            <p class="p_footer">created by Lamouche Timothe B1-B</p>
+
+        </div>
+    </footer>
+
+    <script src="./JS/LeBlanc.js"></script>
+</body>
+
+</html>
